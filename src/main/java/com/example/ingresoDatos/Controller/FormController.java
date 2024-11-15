@@ -18,6 +18,7 @@ public class FormController {
     @PostMapping("/form")
     public String submitFrom(@ModelAttribute User user, Model model){
         model.addAttribute("user", user);
+        /*0000*/
         return "result";
     }
 }
